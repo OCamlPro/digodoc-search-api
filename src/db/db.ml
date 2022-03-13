@@ -270,7 +270,7 @@ module Elements = struct
                                  ) AS row_id
               FROM
                   (
-                    SELECT DISTINCT ident, mdl_opam_name, mdl_name, mdl_id
+                    SELECT DISTINCT ident, mdl_opam_name, is_class_type, mdl_name, mdl_id
                     FROM
                         (
                           SELECT

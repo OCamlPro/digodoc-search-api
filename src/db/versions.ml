@@ -78,6 +78,7 @@ let init () =
         mdl_id INT NOT NULL REFERENCES module_index(mdl_id),
         mdl_name VARCHAR NOT NULL,
         mdl_opam_name VARCHAR NOT NULL REFERENCES opam_index(opam_name),
+        is_class_type BOOLEAN NOT NULL,
         type_id INT NOT NULL PRIMARY KEY,
         ident VARCHAR NOT NULL
       )|};
