@@ -100,7 +100,7 @@ type nonrec class_element = {
   ident : string;
   mdl : string;
   mdlpath : string;
-  is_class_type : int;
+  isclasstype : int;
   opam : string;
   opampath : string;
 }

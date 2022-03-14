@@ -107,7 +107,7 @@ type nonrec class_entry = Data_types.class_element = {
   ident : string;
   mdl : string;
   mdlpath : string;
-  is_class_type : int;
+  isclasstype : int;
   opam : string;
   opampath : string;
 } [@@deriving json_encoding]

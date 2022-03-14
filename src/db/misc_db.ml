@@ -165,7 +165,7 @@ let class_of_row_opt modules row opam_row mdl_row : Data_types.class_element opt
                 ident = row#ident;
                 mdl;
                 mdlpath;
-                is_class_type = if row#is_class_type then 1 else 0;
+                isclasstype = if row#is_class_type then 1 else 0;
                 opam;
                 opampath
             }
